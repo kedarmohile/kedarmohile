@@ -16,6 +16,7 @@ I bring **22+ years of cybersecurity and technology experience** across enterpri
 - **Lab 04: Confused-Deputy Delegation** — multi-agent delegation harness that separates a deputy's local privilege from the original principal's exact delegated authority, including resource/delegate substitution and request replay controls.
 - **Lab 05: Agent Credential Scope Leakage** — identity/credential boundary lab that separates raw credential exposure from unauthorized use, with subject, audience, resource, and request binding plus safe child-credential derivation.
 - **Security Console** — Command Center, guided hunts, live lab orchestration, Control/Exposure/Evidence scoring, findings, timelines, attack graph, evidence vault, cases, and command palette.
+- **Academy / Career Lab / Target Lab** — evidence-gated missions and ATLAS mapping; interview preparation across security disciplines; and local/GitHub target assessment through explicit trusted adapters.
 - All five labs are CI validated on **Python 3.11, 3.12, and 3.13**.
 - Built to distinguish real security-boundary failures from broken controls, retrieval exposure without impact, intentionally shared state, legitimate authorization, deputy privilege without valid delegation, or credential exposure without successful misuse.
 
