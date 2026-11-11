@@ -14,8 +14,9 @@ I bring **22+ years of cybersecurity and technology experience** across enterpri
 - **Lab 02: Tool Authorization Boundary** — side-effect-free indirect-injection harness with trusted approvals bound to actor, request, tool, and exact arguments; includes replay and argument-substitution controls.
 - **Lab 03: Retrieval / Persistent-Memory Poisoning** — delayed-ingestion/retrieval harness that separates poison persistence, retrieval, directive exposure, and demonstrated downstream influence.
 - **Lab 04: Confused-Deputy Delegation** — multi-agent delegation harness that separates a deputy's local privilege from the original principal's exact delegated authority, including resource/delegate substitution and request replay controls.
-- All four labs are CI validated on **Python 3.11, 3.12, and 3.13**.
-- Built to distinguish real security-boundary failures from broken controls, retrieval exposure without impact, intentionally shared state, legitimate authorization, or deputy privilege without valid delegation.
+- **Lab 05: Agent Credential Scope Leakage** — identity/credential boundary lab that separates raw credential exposure from unauthorized use, with subject, audience, resource, and request binding plus safe child-credential derivation.
+- All five labs are CI validated on **Python 3.11, 3.12, and 3.13**.
+- Built to distinguish real security-boundary failures from broken controls, retrieval exposure without impact, intentionally shared state, legitimate authorization, deputy privilege without valid delegation, or credential exposure without successful misuse.
 
 ## Current open-source security work
 
