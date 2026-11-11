@@ -11,8 +11,9 @@ I bring **22+ years of cybersecurity and technology experience** across enterpri
 **[Agentic AI Security Lab](https://github.com/kedarmohile/agentic-ai-security-lab)** — reproducible security labs for GenAI and agentic AI systems.
 
 - **Lab 01: Cross-Actor Persistent Memory Isolation** — deterministic benign-canary harness, explicit positive/negative controls, structured JSON evidence, threat model, result schema, and regression tests.
-- CI validated on **Python 3.11, 3.12, and 3.13**.
-- Built to separate a real isolation failure from broken persistence controls or intentionally shared memory.
+- **Lab 02: Tool Authorization Boundary** — side-effect-free indirect-injection harness with trusted approvals bound to actor, request, tool, and exact arguments; includes replay and argument-substitution controls.
+- Both labs are CI validated on **Python 3.11, 3.12, and 3.13**.
+- Built to distinguish real security-boundary failures from broken controls, intentionally shared state, or legitimately authorized actions.
 
 ## Current open-source security work
 
