@@ -12,7 +12,7 @@ I bring **22+ years of cybersecurity and technology experience** across enterpri
 | --- | --- | --- |
 | [Medplum](https://github.com/medplum/medplum) | [Save fetched Agent logs as FHIR DocumentReference/Binary](https://github.com/medplum/medplum/pull/11368) — persistence, auditability, security context, UI regression tests | **Draft PR #11368** |
 | [NVIDIA garak](https://github.com/NVIDIA/garak) | [Cross-actor isolation of persistent agent memory](https://github.com/NVIDIA/garak/issues/2453) — proposed benign-canary probe for cross-user memory leakage | **Issue #2453 · needs triage** |
-| [Elastic detection-rules](https://github.com/elastic/detection-rules) | [AWS Bedrock AgentCore cross-actor user-preference memory access](https://github.com/elastic/detection-rules/issues/6722) — behavioral ES|QL detection for memory-isolation failure | **Rule proposal #6722** |
+| [Elastic detection-rules](https://github.com/elastic/detection-rules) | [AWS Bedrock AgentCore cross-actor user-preference memory access](https://github.com/elastic/detection-rules/issues/6722) — behavioral ES\|QL detection for memory-isolation failure | **Rule proposal #6722** |
 
 These contributions share a common theme: **security boundaries in stateful and agentic AI systems**—especially where identity, persistent memory, observability, and authorization meet.
 
