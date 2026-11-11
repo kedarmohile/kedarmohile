@@ -12,8 +12,9 @@ I bring **22+ years of cybersecurity and technology experience** across enterpri
 
 - **Lab 01: Cross-Actor Persistent Memory Isolation** — deterministic benign-canary harness, explicit positive/negative controls, structured JSON evidence, threat model, result schema, and regression tests.
 - **Lab 02: Tool Authorization Boundary** — side-effect-free indirect-injection harness with trusted approvals bound to actor, request, tool, and exact arguments; includes replay and argument-substitution controls.
-- Both labs are CI validated on **Python 3.11, 3.12, and 3.13**.
-- Built to distinguish real security-boundary failures from broken controls, intentionally shared state, or legitimately authorized actions.
+- **Lab 03: Retrieval / Persistent-Memory Poisoning** — delayed-ingestion/retrieval harness that separates poison persistence, retrieval, directive exposure, and demonstrated downstream influence.
+- All three labs are CI validated on **Python 3.11, 3.12, and 3.13**.
+- Built to distinguish real security-boundary failures from broken controls, retrieval exposure without impact, intentionally shared state, or legitimately authorized actions.
 
 ## Current open-source security work
 
