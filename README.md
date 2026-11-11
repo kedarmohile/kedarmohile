@@ -6,6 +6,14 @@ I work at the intersection of **cybersecurity, generative AI, cloud architecture
 
 I bring **22+ years of cybersecurity and technology experience** across enterprise cloud, healthcare, financial services, and other regulated systems, spanning hands-on architecture, security engineering, and executive security leadership.
 
+## Flagship security lab
+
+**[Agentic AI Security Lab](https://github.com/kedarmohile/agentic-ai-security-lab)** — reproducible security labs for GenAI and agentic AI systems.
+
+- **Lab 01: Cross-Actor Persistent Memory Isolation** — deterministic benign-canary harness, explicit positive/negative controls, structured JSON evidence, threat model, result schema, and regression tests.
+- CI validated on **Python 3.11, 3.12, and 3.13**.
+- Built to separate a real isolation failure from broken persistence controls or intentionally shared memory.
+
 ## Current open-source security work
 
 | Project | Work | Status |
