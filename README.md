@@ -8,13 +8,14 @@ I bring **22+ years of cybersecurity and technology experience** across enterpri
 
 ## Flagship security lab
 
-**[Agentic AI Security Lab](https://github.com/kedarmohile/agentic-ai-security-lab)** — reproducible security labs for GenAI and agentic AI systems.
+**[Agentic AI Security Lab](https://github.com/kedarmohile/agentic-ai-security-lab)** — an open-source agentic AI security testing and hunting platform with a local Security Console.
 
 - **Lab 01: Cross-Actor Persistent Memory Isolation** — deterministic benign-canary harness, explicit positive/negative controls, structured JSON evidence, threat model, result schema, and regression tests.
 - **Lab 02: Tool Authorization Boundary** — side-effect-free indirect-injection harness with trusted approvals bound to actor, request, tool, and exact arguments; includes replay and argument-substitution controls.
 - **Lab 03: Retrieval / Persistent-Memory Poisoning** — delayed-ingestion/retrieval harness that separates poison persistence, retrieval, directive exposure, and demonstrated downstream influence.
 - **Lab 04: Confused-Deputy Delegation** — multi-agent delegation harness that separates a deputy's local privilege from the original principal's exact delegated authority, including resource/delegate substitution and request replay controls.
 - **Lab 05: Agent Credential Scope Leakage** — identity/credential boundary lab that separates raw credential exposure from unauthorized use, with subject, audience, resource, and request binding plus safe child-credential derivation.
+- **Security Console** — Command Center, guided hunts, live lab orchestration, Control/Exposure/Evidence scoring, findings, timelines, attack graph, evidence vault, cases, and command palette.
 - All five labs are CI validated on **Python 3.11, 3.12, and 3.13**.
 - Built to distinguish real security-boundary failures from broken controls, retrieval exposure without impact, intentionally shared state, legitimate authorization, deputy privilege without valid delegation, or credential exposure without successful misuse.
 
